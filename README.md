@@ -23,7 +23,7 @@ The data folder consists of the original dataset that I have used myself, as wel
 The code folder consists of: 
 - notebook - where all the EDA, cleaning, and model training happens
 - predict - to load the model and serve it via a web service
-- predict-test - to test the output of the model 
+- predict-test and predict-test-cloud - to test the output of the model, depending on whether you deploy it locally or on cloud
 - pipenv and pipenv.lock for the virtual environment using pipenv
 - Dockerfile for using a Docker container
 
